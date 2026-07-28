@@ -1,0 +1,64 @@
+body{
+    
+    background-color:lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;   */
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color:rgb(243, 224, 226);
+    border-radius: 8px;
+    text-align: center;         
+    
+}
+.form_field{
+    margin-top: 15px;
+    display: flex;            
+    flex-direction: row;
+    font-family: Times New Roman;
+    font-size: 1.2em;
+    padding: 3px 3px;
+    
+}
+label{
+    flex: 1;            
+    text-align: left;        
+    margin-right: 3px;       
+}
+input,select{
+    padding: 5px;
+    font-family: Times New Roman;
+    font-size: 1em;
+    border: 1px solid #ccc;
+}
+
+#btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(250, 237, 221);
+    font-size: 1.3em;
+    
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(250, 234, 214);
+    
+}
+#sbt {
+    display: flex;           /* Enables flexbox for this row */
+    justify-content: center;  /* Centers the button horizontally */
+    width: 100%;             /* Ensures the div spans the whole form */
+    margin-top: 20px;        /* Adds some breathing room above the button */
+}
+.d-none{
+    display: none;
+}
