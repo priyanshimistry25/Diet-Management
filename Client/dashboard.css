@@ -1,0 +1,33 @@
+body{
+    background-color: lavenderblush;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px; /* space between cards */
+    padding: 20px;
+}
+
+.field {
+    background-color:lavender;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+.field i {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+}
+
+.exercise { background: #ff6b6b; }
+.device { background: #4dabf7; }
+.barcode { background: #845ef7; }
+.meal { background: #51cf66; }
+.recipe { background: #f59f00; }
+.reminder { background: #ff922b; }
+
