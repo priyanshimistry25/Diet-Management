@@ -1,4 +1,4 @@
-# 🥗 Diet Management System
+# 🥗 NutriTrack
 
 A web-based **Diet Management System** developed using **PHP, MySQL, HTML, CSS, and JavaScript**. The system helps users manage their diet plans, track meals and exercises, set health goals, and connect with dietitians for better health management.
 
